@@ -1,15 +1,29 @@
-<div class="drawer">
+<div class="drawer font-exo">
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content flex flex-col">
+  <div class="drawer-content">
     <!-- Navbar -->
-    <div class="w-full navbar bg-primary">
+    <div
+      class="w-full navbar bg-secondary flex justify-center items-center md:justify-between xl:px-52 md:px-24"
+    >
+      <div class="flex-1 text-4xl font-medium">LIRF<sup>3</sup></div>
+      <div class="flex-none hidden lg:block">
+        <ul class="menu menu-horizontal text-base">
+          <!-- Navbar menu content here -->
+          <li><a href="/">inicio</a></li>
+          <li><a href="/publicaciones">Publicaciones</a></li>
+          <li><a href="/miembros">Miembros</a></li>
+          <li><a href="/docencia">Docencia</a></li>
+          <li><a href="/divulgacion">Divulgacion</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
       <div class="flex-none lg:hidden">
         <label for="my-drawer-3" class="btn btn-square btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            class="inline-block w-6 h-6 stroke-current"
+            class="inline-block w-8 h-8 stroke-current"
             ><path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -18,25 +32,13 @@
           >
         </label>
       </div>
-      <div class="flex-1 px-2 mx-2">LIRFFF</div>
-      <div class="flex-none hidden lg:block">
-        <ul class="menu menu-horizontal">
-          <!-- Navbar menu content here -->
-          <li><a href="/publicaciones">Publicaciones</a></li>
-          <li><a href="/miembros">Miembros</a></li>
-          <li><a href="/docencia">Docencia</a></li>
-          <li><a href="/divulgacion">Divulgacion</a></li>
-          <li><a href="/contacto">Contacto</a></li>
-        </ul>
-      </div>
     </div>
-    <!-- Page content here -->
-     Content
   </div>
   <div class="drawer-side">
     <label for="my-drawer-3" class="drawer-overlay"></label>
     <ul class="menu p-4 w-80 min-h-full bg-base-200">
       <!-- Sidebar content here -->
+      <li><a href="/">inicio</a></li>
       <li><a href="/publicaciones">Publicaciones</a></li>
       <li><a href="/miembros">Miembros</a></li>
       <li><a href="/docencia">Docencia</a></li>

@@ -4,7 +4,11 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				bungue: ["Bungee Shade"],
+				exo: ["'Exo 2'"],
+				lato: ["Lato"],
+				title: ["Oswald"],
+				montserrat: ["Montserrat"],
+				sans: ["Raleway", "sans"], //Raleway fuente por defecto
 			},
 		},
 	},

@@ -1,5 +1,7 @@
 ---
 import Drawer from "./Drawer.astro";
+import Footer from "./Footer.astro";
+import Header from "./Header.astro";
 import "../styles/global.css"
 ---
 
@@ -13,12 +15,16 @@ import "../styles/global.css"
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700;900&family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;700;900&family=Oswald:wght@300;500;700&family=Raleway:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9297303f14.js" crossorigin="anonymous"></script>
 
   </head>
 
   <body>
+    <Header />
     <Drawer />
     <slot />
+    <Footer />
   </body>
 </html>
