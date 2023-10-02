@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Nayeli Ortiz Dorantes",
+    "img": "/LIRFFF/img/members/usuario3.png",
+    "category": "Maestria - Ingeniería Petrolera.",
+    "description": "",
+    "tesis": "Titulo tentativo de la tesis: Evaluación técnica y económica sobre la sustitución de fluidos de perforación base aceite por fluidos base agua en pozos marinos para mitigar el impacto ambiental.",
+    "hobbies": ""
+  },
+  {
+    "id": 2,
+    "name": "Omar Luna Flores",
+    "img": "/LIRFFF/img/members/OmarLuna.jpg",
+    "category": "Maestria - Ingeniería Petrolera.",
+    "description": "Ing. Petrolero que actualmente cursa la maestría de Exploración y Explotación de Recursos Naturales. Con interés en el área de recuperación mejorada; pero también en la distribución, tratamiento o regulación del GN. ",
+    "tesis": "Titulo tentativo de la tesis: Aplicación de nanofluidos para incrementar la recuperación de aceite.",
+    "hobbies": "Me gusta mucho practicar deporte y también me apasionan los carros."
+  },
+  {
+    "id": 3,
+    "name": "Janett Montaño Salazar",
+    "img": "/LIRFFF/img/members/JanettMontano.jpg",
+    "category": "Maestria - Ingeniería Petrolera.",
+    "description": "Ingeniería Petrolera. Con interés en el aseguramiento de flujo, productividad de pozos y reologia de fluidos petroleros.",
+    "tesis": "Titulo tentativo de la tesis: Evaluación conjunta de surfactantes con nanoparticulas de óxido de silicio para la formación de emulsiones con aceite crudo.",
+    "hobbies": ""
+  },
+  {
+    "id": 4,
+    "name": "Josue Horacio Almazán Mendoza",
+    "img": "/LIRFFF/img/members/JosueHoracio.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería petrolera.",
+    "tesis": "",
+    "hobbies": "Me interesa la ingeniería de yacimientos, fotografía, natación y la divulgación científica"
+  },
+  {
+    "id": 5,
+    "name": "Adrián Peralta Jarquín",
+    "img": "/LIRFFF/img/members/AdrianPeralta.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería Petrolera.",
+    "tesis": "",
+    "hobbies": "Me interesa la ingeniería de producción, refinación, natación y la música."
+  },
+  {
+    "id": 6,
+    "name": "Abigali Hernández Medrano",
+    "img": "/LIRFFF/img/members/usuario3.png",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "",
+    "tesis": "",
+    "hobbies": ""
+  },
+  {
+    "id": 7,
+    "name": "Omar Briones",
+    "img": "/LIRFFF/img/members/usuario3.png",
+    "category": "Servicio Social.",
+    "description": "",
+    "tesis": "",
+    "hobbies": ""
+  },
+  {
+    "id": 8,
+    "name": "César A. Villagómez Pérez",
+    "img": "/LIRFFF/img/members/usuario3.png",
+    "category": "Servicio Social.",
+    "description": "",
+    "tesis": "",
+    "hobbies": ""
+  }
+]
