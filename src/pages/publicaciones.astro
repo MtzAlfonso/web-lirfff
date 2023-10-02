@@ -1,10 +1,38 @@
 ---
-import Layout from "../components/Layout.astro"
+import Layout from "../components/Layout.astro";
+import items from "../../utils/articles.json";
 ---
 
 <Layout>
-
-    <h1 class="text-info">Publicaciones</h1>
-    <p>Prueba</p>
-
+  <div class="bg-white">
+    <div class="container mx-auto text-secondary py-24">
+        <h2 class="text-4xl text-center pb-8 font-title">Publicaciones</h2>
+      {
+        items.map((item) => (
+          <article class="mb-4 border-b border-gray-300 last:border-b-0 py-4">
+            <div>
+              {item.link ? (
+                <a
+                  href={item.link}
+                  class="font-semibold text-secondary hover:text-yellow-500 transition duration-300"
+                >
+                  {item.id} - {item.title}
+                  <i class="fa-solid fa-link"/>
+                </a>
+              ) : (
+                <div class="font-semibold text-secondary">
+                  {item.id} -{item.title}
+                </div>
+              )}
+            </div>
+            <div class="text-gray-600">{item.authors}</div>
+            <div class="italic">
+              {item.place} - {item.year}
+            </div>
+            <div class="">{item.extra}</div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
 </Layout>
