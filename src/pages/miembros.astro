@@ -1,10 +1,36 @@
 ---
-import Layout from "../components/Layout.astro"
+import Card from "../components/Card.astro";
+import Layout from "../components/Layout.astro";
+import Alumnos from "../../utils/alumnos.json";
+import Ex_Alumnos from "../../utils/ex_alumnos.json";
+import Apoyo from "../../utils/apoyo.json";
 ---
 
 <Layout>
-
-    <h1 class="text-info">Miembros</h1>
-    <p>Prueba</p>
-
+  <div class="bg-slate-200">
+    <h2 class="text-center p-20 text-4xl text-slate-800 font-medium">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quas.
+    </h2>
+    <div class="w-9/12 mx-auto pb-20">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-28 gap-y-28"
+      >
+        {
+          Alumnos.map((alumno) => (
+            <Card id={alumno.id} name={alumno.name} img={alumno.img} category={alumno.category} />
+          ))
+        }
+        {
+          Ex_Alumnos.map((ex_alumno) => (
+            <Card id={ex_alumno.id} name={ex_alumno.name} img={ex_alumno.img} category={ex_alumno.category} />
+          ))
+        }
+        {
+          Apoyo.map((apoyo) => (
+            <Card id={apoyo.id} name={apoyo.name} img={apoyo.img} category={apoyo.category} />
+          ))
+        }
+      </div>
+    </div>
+  </div>
 </Layout>

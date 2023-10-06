@@ -2,7 +2,7 @@
   {
     "id": 100,
     "name": "Adrian Romero García",
-    "img": "/LIRFFF/img/members/AdrianRomero.jpg",
+    "img": "Img/Members/LIRFFF-Adrian-Romero.jpg",
     "category": "Soporte técnico y logístico.",
     "description": "",
     "tesis": "Titulo de la tesis: Desarrollo y Evaluación de Nanofluidos con Aplicación Potencial en Recuperación Mejorada",
@@ -11,7 +11,7 @@
   {
     "id": 101,
     "name": "David Antonio Arguijo Muñiz",
-    "img": "/LIRFFF/img/members/DavidA.jpeg",
+    "img": "Img/Members/LIRFFF-David-Arguijo.jpg",
     "category": "Tesista.",
     "description": "Optención de grado: agosto 2021.",
     "tesis": "Titulo de la tesis: Evaluación de nanofluidos para recuperación mejorada de aceite",
@@ -20,7 +20,7 @@
   {
     "id": 102,
     "name": "Diego Magaña Trejo",
-    "img": "/LIRFFF/img/members/DiegoMag.jpg",
+    "img": "Img/Members/LIRFFF-Diego-Magana.jpg",
     "category": "Tesista.",
     "description": "Obtención de Grado, con Mención Honorífica, junio 2018.",
     "tesis": "Titulo de la tesis: Desarrollo y Evaluación de Nanofluidos con Aplicación Potencial en Recuperación Mejorada",
@@ -29,7 +29,7 @@
   {
     "id": 103,
     "name": "Pilar Ortiz Lucas",
-    "img": "/LIRFFF/img/members/PilarOr.jpg",
+    "img": "Img/Members/LIRFFF-Pilar-Ortiz.jpg",
     "category": "Tesista.",
     "description": "Obtención de Grado: febrero 2020.",
     "tesis": "Titulo de la tesis: Estudio de la mineralización de basaltos mexicanos en presencia de CO2",
@@ -38,7 +38,7 @@
   {
     "id": 104,
     "name": "Javier Morales Hernández",
-    "img": "/LIRFFF/img/members/JavierMo.jpg",
+    "img": "Img/Members/LIRFFF-Javier-Morales.jpg",
     "category": "Tesista.",
     "description": "Obtención de Grado: mayo 2017.",
     "tesis": "Titulo de la tesis: Estudio de la Formación y Estabilidad de Incrustaciones de Carbonato de Calcio en Campos Naturalmente Fracturados desde Condiciones de Yacimiento hasta Superficie",
@@ -47,7 +47,7 @@
   {
     "id": 105,
     "name": "Gandhi Reyes Osorio Celestin",
-    "img": "/LIRFFF/img/members/GandhiReyes.jpg",
+    "img": "Img/Members/LIRFFF-Gandhi-Osorio.jpg",
     "category": "Tesista.",
     "description": "",
     "tesis": "Titulo de la tesis: Incrustaciones",
@@ -56,7 +56,7 @@
   {
     "id": 106,
     "name": "Cristian Ramón Herrera Romero",
-    "img": "/LIRFFF/img/members/usuario3.png",
+    "img": "Img/Members/LIRFFF-Miembro.jpg",
     "category": "Tesista.",
     "description": "Obtención de Grado, febrero 2020",
     "tesis": "Titulo de la tesis: Evaluación de la estabilidad de espumas utilizando una disolución SAP (Self-Assembling Polymer)",
@@ -65,7 +65,7 @@
   {
     "id": 107,
     "name": "Omar Patiño Sierra",
-    "img": "/LIRFFF/img/members/OmarPatino.jpg",
+    "img": "Img/Members/LIRFFF-Omar-Patino.jpg",
     "category": "Servicio Social.",
     "description": "",
     "tesis": "",
@@ -74,7 +74,7 @@
   {
     "id": 108,
     "name": "Karina Guadalupe González Moreno",
-    "img": "/LIRFFF/img/members/KarinaGon.jpg",
+    "img": "Img/Members/LIRFFF-Karina-Gonzalez.jpg",
     "category": "Servicio Social.",
     "description": "Estudiante de Ingeniería Mecatrónica",
     "tesks": "",
@@ -83,7 +83,7 @@
   {
     "id": 109,
     "name": "Zuriel Yair Yescas Ramos",
-    "img": "/LIRFFF/img/members/ZurielYa.jpg",
+    "img": "Img/Members/LIRFFF-Zuriel-Yescas.jpg",
     "category": "Servicio Social.",
     "description": "Estudiante de Ingeniería Petrolera y Matemáticas",
     "tesis": "",
@@ -92,7 +92,7 @@
   {
     "id": 110,
     "name": "Alexis Mayén Núñez",
-    "img": "/LIRFFF/img/members/AlexisMa.jpg",
+    "img": "Img/Members/LIRFFF-Alexis-Mayen.jpg",
     "category": "Servicio Social.",
     "description": "Estudiante de Ingeniería Petrolera",
     "tesis": "",
@@ -101,7 +101,7 @@
   {
     "id": 111,
     "name": "José Luis Rodríguez Jiménez",
-    "img": "/LIRFFF/img/members/JoseLu.jpg",
+    "img": "Img/Members/LIRFFF-Jose-Rodriguez.jpg",
     "category": "Servicio Social.",
     "description": "Estudiante de Ingeniería Petrolera",
     "tesis": "",
@@ -110,7 +110,7 @@
   {
     "id": 112,
     "name": "Byron de León Hernández",
-    "img": "/LIRFFF/img/members/ByronLeo.jpg",
+    "img": "Img/Members/LIRFFF-Byron-Hernandez.jpg",
     "category": "Estancia de Investigación.",
     "description": "Estudiante de Ingeniería Petrolera",
     "tesis": "",
@@ -119,7 +119,7 @@
   {
     "id": 113,
     "name": "Laura Fernanda Fabela Soto",
-    "img": "/LIRFFF/img/members/LauraFer.jpg",
+    "img": "Img/Members/LIRFFF-Laura-Fabela.jpg",
     "category": "Estancia de Investigación.",
     "description": "",
     "tesis": "",

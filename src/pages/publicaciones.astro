@@ -5,23 +5,23 @@ import items from "../../utils/articles.json";
 
 <Layout>
   <div class="bg-white">
-    <div class="container mx-auto text-secondary py-24">
+    <div class="w-3/5 mx-auto text-black py-16">
         <h2 class="text-4xl text-center pb-8 font-title">Publicaciones</h2>
       {
         items.map((item) => (
-          <article class="mb-4 border-b border-gray-300 last:border-b-0 py-4">
+          <article class="border-b border-gray-300 last:border-b-0 py-6">
             <div>
               {item.link ? (
                 <a
                   href={item.link}
-                  class="font-semibold text-secondary hover:text-yellow-500 transition duration-300"
+                  class="font-semibold text-secondary hover:underline hover:text-info transition duration-200"
                 >
-                  {item.id} - {item.title}
-                  <i class="fa-solid fa-link"/>
+                  {item.id}- {item.title}
+                  <i class="fa-solid fa-link pl-1"/>
                 </a>
               ) : (
                 <div class="font-semibold text-secondary">
-                  {item.id} -{item.title}
+                  {item.id}- {item.title}
                 </div>
               )}
             </div>
