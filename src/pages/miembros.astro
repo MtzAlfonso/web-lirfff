@@ -7,27 +7,67 @@ import Apoyo from "../../utils/apoyo.json";
 ---
 
 <Layout>
-  <div class="">
-    <h2 class="text-center p-20 text-4xl text-slate-800 font-medium">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quas.
+  <div class="container mx-auto">
+    <h2
+      class="text-5xl text-slate-800 font-merriweather font-medium leading-relaxed"
+    >
+      We have a dedicated team committed to <span class="bg-red-100 rounded-md"
+        >supporting</span
+      > both you and your business
     </h2>
+    <p class="text-slate-800 pb-10">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos
+      inventore aut neque sint recusandae sunt? Id, dolorem autem! Ad!
+    </p>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 bg-primary p-16 gap-10 rounded-md"
+    >
+      <div>
+        <h2 class="text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum
+          esse? Illum incidunt, beatae porro, architecto error perferendis rerum
+          sunt fugit aliquid, ipsa neque nesciunt?
+        </h2>
+      </div>
+      <div>
+        <figure>
+          <img src="Img/Home/LIRFFF-Grupal.jpg" alt="" />
+        </figure>
+      </div>
+    </div>
     <div class="w-9/12 mx-auto pb-20">
       <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-28 gap-y-28"
       >
         {
           Alumnos.map((alumno) => (
-            <Card id={alumno.id} name={alumno.name} img={alumno.img} category={alumno.category} />
+            <Card
+              id={alumno.id}
+              name={alumno.name}
+              img={alumno.img}
+              category={alumno.category}
+            />
           ))
         }
         {
           Ex_Alumnos.map((ex_alumno) => (
-            <Card id={ex_alumno.id} name={ex_alumno.name} img={ex_alumno.img} category={ex_alumno.category} />
+            <Card
+              id={ex_alumno.id}
+              name={ex_alumno.name}
+              img={ex_alumno.img}
+              category={ex_alumno.category}
+            />
           ))
         }
         {
           Apoyo.map((apoyo) => (
-            <Card id={apoyo.id} name={apoyo.name} img={apoyo.img} category={apoyo.category} />
+            <Card
+              id={apoyo.id}
+              name={apoyo.name}
+              img={apoyo.img}
+              category={apoyo.category}
+            />
           ))
         }
       </div>

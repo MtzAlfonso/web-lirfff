@@ -5,34 +5,40 @@ import items from "../../utils/articles.json";
 
 <Layout>
   <div class="bg-white">
-    <div class="w-3/5 mx-auto text-black py-16">
-        <h2 class="text-4xl text-center pb-8 font-title">Publicaciones</h2>
-      {
-        items.map((item) => (
-          <article class="border-b border-gray-300 last:border-b-0 py-6">
-            <div>
-              {item.link ? (
-                <a
-                  href={item.link}
-                  class="font-semibold text-secondary hover:underline hover:text-info transition duration-200"
-                >
-                  {item.id}- {item.title}
-                  <i class="fa-solid fa-link pl-1"/>
-                </a>
-              ) : (
-                <div class="font-semibold text-secondary">
-                  {item.id}- {item.title}
-                </div>
-              )}
-            </div>
-            <div class="text-gray-600">{item.authors}</div>
-            <div class="italic">
-              {item.place} - {item.year}
-            </div>
-            <div class="">{item.extra}</div>
-          </article>
-        ))
-      }
+    <div class="w-3/5 mx-auto text-black">
+      <h2
+        class="text-center py-10 text-5xl text-slate-800 font-merriweather font-medium leading-relaxed container mx-auto"
+      >
+        Publicaciones
+      </h2>
+      <div class="py-5">
+        {
+          items.map((item) => (
+            <article class="border-b border-gray-300 last:border-b-0 py-6">
+              <div>
+                {item.link ? (
+                  <a
+                    href={item.link}
+                    class="font-semibold text-secondary hover:underline hover:text-info transition duration-200"
+                  >
+                    {item.id}- {item.title}
+                    <i class="fa-solid fa-link pl-1" />
+                  </a>
+                ) : (
+                  <div class="font-semibold text-secondary">
+                    {item.id}- {item.title}
+                  </div>
+                )}
+              </div>
+              <div class="text-gray-600">{item.authors}</div>
+              <div class="italic">
+                {item.place} - {item.year}
+              </div>
+              <div class="">{item.extra}</div>
+            </article>
+          ))
+        }
+      </div>
     </div>
   </div>
 </Layout>

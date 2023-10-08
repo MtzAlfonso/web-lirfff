@@ -8,6 +8,7 @@ module.exports = {
 				lato: ["Lato"],
 				title: ["Oswald"],
 				montserrat: ["Montserrat"],
+				merriweather: ["'Merriweather Sans'"],
 				sans: ["Raleway", "sans"], //Raleway fuente por defecto
 			},
 		},
