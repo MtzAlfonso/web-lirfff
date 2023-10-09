@@ -28,46 +28,37 @@
   },
   {
     "id": 4,
-    "name": "Josue Horacio Almazán Mendoza",
-    "img": "Img/Members/LIRFFF-Josue-Almazan.jpg",
-    "category": "Licenciatura - Ingeniería Petrolera.",
-    "description": "Ingeniería petrolera.",
+    "name": "César A. Villagómez Pérez",
+    "img": "Img/Members/LIRFFF-Cesar-Villagomez.jpg",
+    "category": "Servicio Social.",
+    "description": "",
     "tesis": "",
-    "hobbies": "Me interesa la ingeniería de yacimientos, fotografía, natación y la divulgación científica"
+    "hobbies": ""
   },
   {
     "id": 5,
-    "name": "Adrián Peralta Jarquín",
-    "img": "Img/Members/LIRFFF-Adrian-Peralta.jpg",
-    "category": "Licenciatura - Ingeniería Petrolera.",
-    "description": "Ingeniería Petrolera.",
+    "name": "Laiza Sharlene Barroso Flores",
+    "img": "Img/Members/LIRFFF-Laiza.jpg",
+    "category": "Servicio Social.",
+    "description": "",
     "tesis": "",
-    "hobbies": "Me interesa la ingeniería de producción, refinación, natación y la música."
+    "hobbies": ""
   },
   {
     "id": 6,
-    "name": "Abigali Hernández Medrano",
-    "img": "Img/Members/LIRFFF-Miembro.jpg",
-    "category": "Licenciatura - Ingeniería Petrolera.",
+    "name": "Hugo Armando Sandoval Colín",
+    "img": "Img/Members/LIRFFF-Hugo-Armando.jpg",
+    "category": "Servicio Social.",
     "description": "",
     "tesis": "",
     "hobbies": ""
   },
   {
     "id": 7,
-    "name": "Omar Briones",
+    "name": "Rosa María Mariscal Romero",
     "img": "Img/Members/LIRFFF-Miembro.jpg",
-    "category": "Servicio Social.",
-    "description": "",
-    "tesis": "",
-    "hobbies": ""
-  },
-  {
-    "id": 8,
-    "name": "César A. Villagómez Pérez",
-    "img": "Img/Members/LIRFFF-Cesar-Villagomez.jpg",
-    "category": "Servicio Social.",
-    "description": "",
+    "category": "Postdoctorado.",
+    "description": "Estimación de curvas de permeabilidad relativa para procesos de recuperación mejorada por medio de identificación de patrones en perfiles de producción",
     "tesis": "",
     "hobbies": ""
   }

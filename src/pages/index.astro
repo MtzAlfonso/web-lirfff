@@ -3,102 +3,81 @@ import Layout from "../components/Layout.astro";
 ---
 
 <Layout>
-  <h2 class="text-center p-20 text-5xl text-slate-800 font-merriweather font-medium leading-relaxed container mx-auto">
-    Explora nuestro sitio para conocer más sobre <span class="bg-pink-300 rounded-md">nuestro trabajo</span>, proyectos recientes y el equipo de expertos que forma parte de nuestro laboratorio.
-  </h2>
+  <div
+    class="grid md:grid-cols-2 lg:grid-cols-4 gap-1 py-1 text-3xl text-black font-title bg-[#d3d3d3]"
+  >
+    <div class="md:col-span-2 lg:col-span-4  max-h-[550px]">
+      <img
+        class="h-full w-full object-cover object-bottom"
+        src="/Img/Home/LIRFFF-Grupal.jpg"
+        alt=""
+      />
+    </div>
 
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 container mx-auto py-5">
-    <div class="grid gap-4">
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="Img/Home/LIRFFF-Mosaic5.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-          alt=""
-        />
-      </div>
+    <div class="md:col-span-2">
+      <img
+        class="w-full object-cover object-bottom h-72"
+        src="/Img/Home/LIRFFF-Mosaic2.jpg"
+        alt=""
+      />
     </div>
-    <div class="grid gap-4">
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-          alt=""
-        />
-      </div>
+
+    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-1">
+      <a href="/miembros" class="hover:scale-105 duration-300"
+        >¿Quienes somos?</a
+      >
     </div>
-    <div class="grid gap-4">
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-          alt=""
-        />
-      </div>
+
+    <div class="md:order-2">
+      <img
+        class="w-full object-cover object-bottom h-72"
+        src="/Img/Home/LIRFFF-Mosaic4.jpg"
+        alt=""
+      />
     </div>
-    <div class="grid gap-4">
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-          alt=""
-        />
-      </div>
+
+    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-4">
+      <a href="/docencia" class="hover:scale-105 duration-300"
+        >Docencia</a
+      >
     </div>
+
+    <div class="md:order-3">
+      <img
+        class="w-full object-cover object-bottom h-72"
+        src="/Img/Home/LIRFFF-Mosaic3.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-5 lg:order-6">
+      <a href="/divulgacion" class="hover:scale-105 duration-300"
+        >Divulgación</a
+      >
+    </div>
+
+    <div class="md:order-6 lg:order-5">
+      <img
+        class="w-full object-cover object-bottom h-72"
+        src="/Img/Home/LIRFFF-Mosaic1.jpg"
+        alt=""
+      />
+    </div>
+
   </div>
 </Layout>
+
+<style>
+  a:after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px black;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  a:hover:after {
+    transform: scaleX(1);
+  }
+</style>
+<!-- 
+

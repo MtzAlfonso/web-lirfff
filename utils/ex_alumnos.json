@@ -3,7 +3,7 @@
     "id": 100,
     "name": "Adrian Romero García",
     "img": "Img/Members/LIRFFF-Adrian-Romero.jpg",
-    "category": "Soporte técnico y logístico.",
+    "category": "Tesista.",
     "description": "",
     "tesis": "Titulo de la tesis: Desarrollo y Evaluación de Nanofluidos con Aplicación Potencial en Recuperación Mejorada",
     "hobbies": ""
@@ -122,6 +122,51 @@
     "img": "Img/Members/LIRFFF-Laura-Fabela.jpg",
     "category": "Estancia de Investigación.",
     "description": "",
+    "tesis": "",
+    "hobbies": ""
+  },
+  {
+    "id": 4,
+    "name": "Josue Horacio Almazán Mendoza",
+    "img": "Img/Members/LIRFFF-Josue-Almazan.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería petrolera.",
+    "tesis": "",
+    "hobbies": "Me interesa la ingeniería de yacimientos, fotografía, natación y la divulgación científica"
+  },
+  {
+    "id": 5,
+    "name": "Adrián Peralta Jarquín",
+    "img": "Img/Members/LIRFFF-Adrian-Peralta.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería Petrolera.",
+    "tesis": "",
+    "hobbies": "Me interesa la ingeniería de producción, refinación, natación y la música."
+  },
+  {
+    "id": 6,
+    "name": "Abigali Hernández Medrano",
+    "img": "Img/Members/LIRFFF-Miembro.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería Petrolera.",
+    "tesis": "",
+    "hobbies": ""
+  },
+  {
+    "id": 7,
+    "name": "Omar Briones",
+    "img": "Img/Members/LIRFFF-Miembro.jpg",
+    "category": "Servicio Social.",
+    "description": "",
+    "tesis": "",
+    "hobbies": ""
+  },
+  {
+    "id": 120,
+    "name": "Erick Cantú Apodaca",
+    "img": "Img/Members/LIRFFF-Erick-Cantu.jpg",
+    "category": "Licenciatura - Ingeniería Petrolera.",
+    "description": "Ingeniería Petrolera.",
     "tesis": "",
     "hobbies": ""
   }

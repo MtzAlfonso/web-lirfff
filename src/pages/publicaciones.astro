@@ -4,14 +4,14 @@ import items from "../../utils/articles.json";
 ---
 
 <Layout>
-  <div class="bg-white">
-    <div class="w-3/5 mx-auto text-black">
+  <div>
+    <div class="container mx-auto text-black">
       <h2
-        class="text-center py-10 text-5xl text-slate-800 font-merriweather font-medium leading-relaxed container mx-auto"
+        class="text-center text-5xl text-slate-800 font-title font-medium leading-relaxed container mx-auto pt-10"
       >
         Publicaciones
       </h2>
-      <div class="py-5">
+      <div class="py-5 px-2">
         {
           items.map((item) => (
             <article class="border-b border-gray-300 last:border-b-0 py-6">

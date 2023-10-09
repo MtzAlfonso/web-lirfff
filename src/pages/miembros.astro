@@ -7,69 +7,62 @@ import Apoyo from "../../utils/apoyo.json";
 ---
 
 <Layout>
-  <div class="container mx-auto">
-    <h2
-      class="text-5xl text-slate-800 font-merriweather font-medium leading-relaxed"
-    >
-      We have a dedicated team committed to <span class="bg-red-100 rounded-md"
-        >supporting</span
-      > both you and your business
-    </h2>
-    <p class="text-slate-800 pb-10">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos
-      inventore aut neque sint recusandae sunt? Id, dolorem autem! Ad!
-    </p>
-
-    <div
-      class="grid grid-cols-1 md:grid-cols-2 bg-primary p-16 gap-10 rounded-md"
-    >
-      <div>
-        <h2 class="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum
-          esse? Illum incidunt, beatae porro, architecto error perferendis rerum
-          sunt fugit aliquid, ipsa neque nesciunt?
-        </h2>
-      </div>
-      <div>
-        <figure>
-          <img src="Img/Home/LIRFFF-Grupal.jpg" alt="" />
-        </figure>
-      </div>
+  <div class="">
+    <div class="max-h-[350px]">
+      <img
+        src="Img/Members/LIRFFF-Fondo.jpg"
+        alt=""
+        class="max-h-full w-full object-cover object-bottom"
+      />
     </div>
-    <div class="w-9/12 mx-auto pb-20">
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-28 gap-y-28"
-      >
-        {
-          Alumnos.map((alumno) => (
-            <Card
-              id={alumno.id}
-              name={alumno.name}
-              img={alumno.img}
-              category={alumno.category}
-            />
-          ))
-        }
-        {
-          Ex_Alumnos.map((ex_alumno) => (
-            <Card
-              id={ex_alumno.id}
-              name={ex_alumno.name}
-              img={ex_alumno.img}
-              category={ex_alumno.category}
-            />
-          ))
-        }
-        {
-          Apoyo.map((apoyo) => (
-            <Card
-              id={apoyo.id}
-              name={apoyo.name}
-              img={apoyo.img}
-              category={apoyo.category}
-            />
-          ))
-        }
+    <div class="grid grid-cols-2">
+      <img src="Img/Members/LIRFFF-Paulina-Gomora.jpg" alt="" />
+      <p class="text-xl">
+        Trabajamos juntos con dedicación y entusiasmo para alcanzar nuestros
+        objetivos y servir a nuestra comunidad
+      </p>
+    </div>
+    <div class="">
+      <div class="w-9/12 mx-auto py-20">
+        <p class="text-black text-4xl">Alumnos</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {
+            Alumnos.map((alumno) => (
+              <Card
+                id={alumno.id}
+                name={alumno.name}
+                img={alumno.img}
+                category={alumno.category}
+              />
+            ))
+          }
+        </div>
+        <p class="text-black text-4xl">Exalumnos</p>
+        <div  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {
+            Ex_Alumnos.map((ex_alumno) => (
+              <Card
+                id={ex_alumno.id}
+                name={ex_alumno.name}
+                img={ex_alumno.img}
+                category={ex_alumno.category}
+              />
+            ))
+          }
+        </div>
+        <p class="text-black text-4xl">Apoyo</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {
+            Apoyo.map((apoyo) => (
+              <Card
+                id={apoyo.id}
+                name={apoyo.name}
+                img={apoyo.img}
+                category={apoyo.category}
+              />
+            ))
+          }
+        </div>
       </div>
     </div>
   </div>
