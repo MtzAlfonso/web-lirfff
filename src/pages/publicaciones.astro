@@ -5,7 +5,7 @@ import items from "../../utils/articles.json";
 
 <Layout>
   <div>
-    <div class="container mx-auto text-black">
+    <div class="w-3/4 mx-auto text-black">
       <h2
         class="text-center text-5xl text-slate-800 font-title font-medium leading-relaxed container mx-auto pt-10"
       >
@@ -21,12 +21,12 @@ import items from "../../utils/articles.json";
                     href={item.link}
                     class="font-semibold text-secondary hover:underline hover:text-info transition duration-200"
                   >
-                    {item.id}- {item.title}
+                    {item.title}
                     <i class="fa-solid fa-link pl-1" />
                   </a>
                 ) : (
                   <div class="font-semibold text-secondary">
-                    {item.id}- {item.title}
+                    {item.title}
                   </div>
                 )}
               </div>

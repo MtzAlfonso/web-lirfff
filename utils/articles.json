@@ -1,5 +1,23 @@
 [
   {
+    "id": 16,
+    "link": "http://encomunicacionct.geociencias.unam.mx/vol-2-num-1-junio-2023/",
+    "title": "Mineralización de CO2 en rocas de México, una propuesta de laboratorio.",
+    "authors": "Josué H. Almazán Mendoza, A. Paulina Gómora Figueroa, Laura Mori, Enrique A. González-Torres.",
+    "place": "Enseñanza y Comunicación de las Geociencias.",
+    "year": "2023. ",
+    "extra": "2, 1, 1–9."
+  },
+  {
+    "id": 15,
+    "link": "http://encomunicacionct.geociencias.unam.mx/vol-2-num-2-diciembre-2022/",
+    "title": "Construcción y análisis de diagramas Stiff-Davis para alumnos de Ingeniería Petrolera.",
+    "authors": "A.P. Gómora-Figueroa, J. Villegas González, J. H. Almazán Mendoza.",
+    "place": "Experiencia en el aula Enseñanza y Comunicación de las Geociencias.",
+    "year": "2022. ",
+    "extra": "1, 2, 13 – 19. Autor correspondiente."
+  },
+  {
     "id": 13,
     "link": "",
     "title": "Optimizing Broad-band Emission in 2D Halide Perovskites.",
@@ -63,11 +81,20 @@
     "extra": "5 (3), 215-226. Autor correspondiente Cite Score: 5.6."
   },
   {
+    "id": 14,
+    "link": "https://www.iim.unam.mx/MA/29/",
+    "title": "¿Cómo afecta el carbonato de calcio a la producción de petróleo?.",
+    "authors": "G. R. Osorio-Celestino, L. F. Fabela-Soto, E. J. Gordillo-Guillén, D. Solís-Ibarra, A. P. Gómora-Figueroa.",
+    "place": "Materiales Avanzados.",
+    "year": "2018, ",
+    "extra": "29, 59 – 66. Autor correspondiente."
+  },
+  {
     "id": 6,
     "link": "PDF/Articulo6.pdf",
     "title": "Metal Insertion in a Methylamine-Functionalized Zirconium Metal-Organic Framework for Enhanced Carbon Dioxide Capture.",
     "authors": "A. P. Gómora-Figueroa, J. A. Mason, M. I. Gonzalez, E. D. Bloch, K. R. Meihaus.",
-    "place": "Inorganic Chemistry. ",
+    "place": "Inorganic Chemistry.",
     "year": "2017, ",
     "extra": "56 (8), 4308 - 4316. Autor correspondiente Factor de impacto: 4.825."
   },
