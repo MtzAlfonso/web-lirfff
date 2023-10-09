@@ -1,12 +1,18 @@
 ---
-import Layout from "../components/Layout.astro";
+import Layout from '../components/Layout.astro';
+
+const BASE_URL = import.meta.env.BASE_URL;
+
+const MEMBERS_URL = `${BASE_URL}/miembros`;
+const TEACHING_URL = `${BASE_URL}/docencia`;
+const OUTREACH_URL = `${BASE_URL}/divulgacion`;
 ---
 
 <Layout>
   <div
     class="grid md:grid-cols-2 lg:grid-cols-4 gap-1 py-1 text-3xl text-black font-title bg-[#d3d3d3]"
   >
-    <div class="md:col-span-2 lg:col-span-4  max-h-[550px]">
+    <div class="md:col-span-2 lg:col-span-4 max-h-[550px]">
       <img
         class="h-full w-full object-cover object-bottom"
         src="Img/Home/LIRFFF-Grupal.jpg"
@@ -22,10 +28,12 @@ import Layout from "../components/Layout.astro";
       />
     </div>
 
-    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-1">
-      <a href="/miembros" class="hover:scale-105 duration-300"
-        >¿Quienes somos?</a
-      >
+    <div
+      class="flex justify-center items-center bg-info min-h-[150px] md:order-1"
+    >
+      <a href={MEMBERS_URL} class="hover:scale-105 duration-300">
+        ¿Quienes somos?
+      </a>
     </div>
 
     <div class="md:order-2">
@@ -36,10 +44,10 @@ import Layout from "../components/Layout.astro";
       />
     </div>
 
-    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-4">
-      <a href="/docencia" class="hover:scale-105 duration-300"
-        >Docencia</a
-      >
+    <div
+      class="flex justify-center items-center bg-info min-h-[150px] md:order-4"
+    >
+      <a href={TEACHING_URL} class="hover:scale-105 duration-300">Docencia</a>
     </div>
 
     <div class="md:order-3">
@@ -50,10 +58,12 @@ import Layout from "../components/Layout.astro";
       />
     </div>
 
-    <div class="flex justify-center items-center bg-info min-h-[150px] md:order-5 lg:order-6">
-      <a href="/divulgacion" class="hover:scale-105 duration-300"
-        >Divulgación</a
-      >
+    <div
+      class="flex justify-center items-center bg-info min-h-[150px] md:order-5 lg:order-6"
+    >
+      <a href={OUTREACH_URL} class="hover:scale-105 duration-300">
+        Divulgación
+      </a>
     </div>
 
     <div class="md:order-6 lg:order-5">
@@ -63,14 +73,13 @@ import Layout from "../components/Layout.astro";
         alt=""
       />
     </div>
-
   </div>
 </Layout>
 
 <style>
   a:after {
     display: block;
-    content: "";
+    content: '';
     border-bottom: solid 3px black;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
@@ -79,5 +88,5 @@ import Layout from "../components/Layout.astro";
     transform: scaleX(1);
   }
 </style>
-<!-- 
+ <!--
 
