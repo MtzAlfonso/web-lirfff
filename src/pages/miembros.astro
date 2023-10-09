@@ -8,24 +8,35 @@ import Apoyo from "../../utils/apoyo.json";
 
 <Layout>
   <div class="">
-    <div class="max-h-[350px]">
+    <div class="hidden lg:block">
       <img
         src="Img/Members/LIRFFF-Fondo.jpg"
         alt=""
-        class="max-h-full w-full object-cover object-bottom"
+        class="max-h-[350px] w-full object-cover object-bottom"
       />
     </div>
-    <div class="grid grid-cols-2">
-      <img src="Img/Members/LIRFFF-Paulina-Gomora.jpg" alt="" />
-      <p class="text-xl">
-        Trabajamos juntos con dedicación y entusiasmo para alcanzar nuestros
-        objetivos y servir a nuestra comunidad
-      </p>
+    <div class="w-10/12 mx-auto lg:relative lg:bottom-48 py-10 lg:py-0">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="flex justify-center lg:inline-block">
+          <img
+            src="Img/Members/LIRFFF-Paulina-Gomora.jpg"
+            alt=""
+            class="max-h-[500px] rounded-md"
+          />
+        </div>
+        <div class="flex flex-col justify-between pt-5 lg:pt-0">
+          <div class="flex flex-col lg:justify-between lg:h-32 text-black lg:text-white text-center">
+            <h1 class="text-5xl font-extrabold">Ana Paulina Gómora Figueroa</h1>
+            <p class="underline decoration-2">Profesora titular de Tiempo completo.</p>
+          </div>
+          <p class="text-black text-sm xl:text-base text-justify lg:font-light pt-5">Paulina es egresada de la Facultad de Química (licenciatura) y el Instituto de Química (doctorado) de la UNAM. Realizó una estancia de investigación en la Universidad Masaryk, Brno, República Checa y una estancia postdoctoral en la Universidad de California Berkeley, EU. Trabajó en Ingeniería de Yacimientos e Instalaciones Superficiales para el proyecto de desarrollo Ayatsil-Tekel, PEMEX. También ha colaborado con PEMEX Logística como testigo experto para la Región Norte Actualmente, es profesora e investigadora en el Departamento de Ingeniería Petrolera de la División de Ingeniería en Ciencias de la Tierra. Cuenta con nivel 1 del SNI y nivel C del PRIDE; ha sido distinguida con la Cátedra Especial Fernando Espinoza Gutiérrez en 2022 y 2023, y obtuvo el Reconocimiento Distinción Universidad Nacional para Jóvenes Académicos (RDUNJA) en Docencia en ciencias exactas en 2023</p>
+        </div>
+      </div>
     </div>
     <div class="">
-      <div class="w-9/12 mx-auto py-20">
-        <p class="text-black text-4xl">Alumnos</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="pb-10">
+        <p class="bg-primary text-info text-6xl font-title min-h-[150px] flex justify-center items-center mb-10">Alumnos</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-11/12 mx-auto">
           {
             Alumnos.map((alumno) => (
               <Card
@@ -37,8 +48,8 @@ import Apoyo from "../../utils/apoyo.json";
             ))
           }
         </div>
-        <p class="text-black text-4xl">Exalumnos</p>
-        <div  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <p class="bg-primary text-info text-6xl font-title min-h-[150px] flex justify-center items-center my-10">Ex - Alumnos</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-11/12 mx-auto">
           {
             Ex_Alumnos.map((ex_alumno) => (
               <Card
@@ -50,8 +61,8 @@ import Apoyo from "../../utils/apoyo.json";
             ))
           }
         </div>
-        <p class="text-black text-4xl">Apoyo</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <p class="bg-primary text-info text-6xl font-title min-h-[150px] flex justify-center items-center my-10">Apoyo Tecnico y Logistico</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-11/12 mx-auto">
           {
             Apoyo.map((apoyo) => (
               <Card
